@@ -1,0 +1,298 @@
+/* CUSTOM SCSS STYLESHEET */
+/***********************
+    IMPORTED FONTS
+***********************/
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+/***********************
+    VARIABLES
+***********************/
+/***********************
+    MIXINS
+***********************/
+/************************
+    DEFAULTS
+************************/
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #fbf7ed; }
+
+p, ul, li {
+  font-size: 14px; }
+
+h2 {
+  font-size: 24px; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 14px; }
+
+.indent {
+  margin-left: 1em; }
+
+.clear {
+  clear: both; }
+
+/***********************
+    CONTACT BAR
+***********************/
+.contact-info {
+  width: 100%;
+  background: #444;
+  border-bottom: .15em solid #999; }
+  .contact-info ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    color: #aaaaaa;
+    font-size: 18px; }
+    .contact-info ul li {
+      float: none;
+      padding: .25em 1em; }
+    .contact-info ul a {
+      color: #aaaaaa; }
+      .contact-info ul a:hover {
+        color: #fdeec9;
+        text-decoration: none; }
+
+/***********************
+    HEADER
+***********************/
+header {
+  background: #333;
+  padding: 1em 0;
+  border-bottom: 2px solid #111; }
+  header .container .row .profile {
+    float: left; }
+    header .container .row .profile .profile-pic {
+      width: 100%;
+      border: .2em solid #888;
+      padding: .25em;
+      border-radius: 1em 0 1em 0; }
+    header .container .row .profile .profileInfo {
+      display: none; }
+  header .container .row .about-me blockquote {
+    font-family: Georgia, serif;
+    font-size: 14px;
+    font-style: italic;
+    margin: 0.25em 0;
+    padding: 0.25em 20px;
+    line-height: 1.45;
+    position: relative;
+    color: #fdeec9; }
+    header .container .row .about-me blockquote::before {
+      display: block;
+      content: open-quote;
+      font-size: 80px;
+      position: absolute;
+      left: -20px;
+      top: -20px;
+      color: #7a7a7a; }
+    header .container .row .about-me blockquote::after {
+      display: block;
+      content: close-quote;
+      font-size: 80px;
+      position: absolute;
+      right: 15px;
+      bottom: -78px;
+      color: #7a7a7a; }
+
+/***********************
+    CONTENT
+***********************/
+.main-content {
+  padding: 2em; }
+  .main-content h2 a {
+    padding: 1em 0;
+    font-size: 12px;
+    color: #555;
+    display: block;
+    float: none; }
+    .main-content h2 a:hover {
+      text-decoration: none;
+      color: #222; }
+  .main-content .job {
+    border-bottom: .1em solid #ccc;
+    margin-bottom: 1em; }
+  .main-content p .jobTitle {
+    font-weight: bold;
+    font-size: 18px; }
+  .main-content .skills {
+    background: #d9d9d9;
+    padding: 1em;
+    border: 1px solid #CCC;
+    box-shadow: 5px 5px 8px #888; }
+    .main-content .skills .social {
+      width: 100%;
+      text-align: center;
+      padding: .5em 0 0 0;
+      margin-bottom: 1em;
+      border-bottom: 1px solid #CCC; }
+      .main-content .skills .social h3 {
+        font-size: 24px; }
+      .main-content .skills .social img {
+        width: 80%;
+        margin-top: .5em; }
+
+/***********************
+    FOOTER
+***********************/
+footer {
+  background: #333;
+  border-top: 2px solid #111;
+  color: #7a7a7a; }
+  footer ul {
+    list-style-type: none;
+    padding-top: 1em; }
+    footer ul li {
+      float: none;
+      width: 100%;
+      text-align: left;
+      padding: 1em 0; }
+      footer ul li img {
+        width: 90%; }
+    footer ul .title {
+      padding-top: 1.5em;
+      padding-left: .5em;
+      font-size: 24px; }
+      footer ul .title span {
+        color: #00a1dd; }
+  footer .copyright {
+    border-top: 1px solid #444;
+    margin-top: 2em;
+    padding: 1em; }
+    footer .copyright p {
+      text-align: center;
+      color: #7a7a7a; }
+
+/***********************
+    MEDIA QUERIES
+***********************/
+/* Extra small devices (phones, less than 768px) */
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  h2 {
+    font-size: 30px; }
+
+  h3 {
+    font-size: 24px; }
+
+  h4 {
+    font-size: 18px; }
+
+  .contact-info {
+    width: 100%;
+    background: #444;
+    border-bottom: .15em solid #999; }
+    .contact-info ul {
+      list-style-type: none;
+      margin: 0 auto;
+      padding: 0;
+      color: #aaaaaa;
+      font-size: 18px; }
+      .contact-info ul li {
+        float: right;
+        padding: .25em 1em; }
+      .contact-info ul a {
+        color: #aaaaaa; }
+        .contact-info ul a:hover {
+          color: #fdeec9;
+          text-decoration: none; }
+
+  header {
+    background: #333;
+    padding: 1em 0;
+    border-bottom: 2px solid #111; }
+    header .container .row .profile {
+      float: left; }
+      header .container .row .profile .profile-pic {
+        width: 100%;
+        border: 1px solid #888;
+        padding: .25em; }
+      header .container .row .profile .profileInfo {
+        display: none; }
+    header .container .row .about-me blockquote {
+      font-family: Georgia, serif;
+      font-size: 30px;
+      font-style: italic;
+      margin: 0.25em 0;
+      padding: 0.25em 40px;
+      line-height: 1.45;
+      position: relative;
+      color: #fdeec9; }
+      header .container .row .about-me blockquote::before {
+        display: block;
+        content: open-quote;
+        font-size: 80px;
+        position: absolute;
+        left: -20px;
+        top: -20px;
+        color: #7a7a7a; }
+      header .container .row .about-me blockquote::after {
+        display: block;
+        content: close-quote;
+        font-size: 80px;
+        position: absolute;
+        right: 50px;
+        bottom: -60px;
+        color: #7a7a7a; }
+
+  .main-content {
+    padding: 2em; }
+    .main-content h2 a {
+      float: right;
+      padding: 1em 0;
+      font-size: 12px;
+      color: #555; }
+      .main-content h2 a:hover {
+        text-decoration: none;
+        color: #222; }
+    .main-content .skills {
+      background: #d9d9d9;
+      padding: .5em 1em 1em 1em;
+      border: 1px solid #CCC;
+      box-shadow: 5px 5px 8px #888; }
+      .main-content .skills .social {
+        width: 100%;
+        text-align: center;
+        padding: .5em 0 0 0;
+        margin-bottom: 1em;
+        border-bottom: 1px solid #CCC; }
+        .main-content .skills .social h3 {
+          font-size: 24px; }
+        .main-content .skills .social img {
+          width: 45%; }
+
+  footer {
+    background: #333;
+    border-top: 2px solid #111;
+    color: #7a7a7a; }
+    footer ul {
+      list-style-type: none;
+      padding-top: 1em; }
+      footer ul li {
+        font-size: 30px;
+        float: left;
+        width: 30%;
+        text-align: center; }
+        footer ul li .webniobium {
+          width: 75%; }
+        footer ul li img {
+          width: 60%; }
+      footer ul .title {
+        padding-bottom: -10em; }
+        footer ul .title span {
+          color: #00a1dd; }
+    footer .copyright {
+      border-top: 1px solid #444;
+      margin-top: 2em;
+      padding: 1em; }
+      footer .copyright p {
+        text-align: center;
+        color: #7a7a7a; } }
+/* Large devices (large desktops, 1200px and up) */
+
+/*# sourceMappingURL=custom.css.map */

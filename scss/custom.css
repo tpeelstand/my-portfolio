@@ -1,0 +1,73 @@
+/* CUSTOM SCSS STYLESHEET */
+/************************
+    DEFAULTS
+************************/
+body {
+  width: 100%;
+  margin: 0 auto; }
+  body .wrapper {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto; }
+
+p {
+  font-size: .5em; }
+
+/***********************
+    VARIABLES
+***********************/
+/***********************
+    MIXINS
+***********************/
+/***********************
+    HEADER
+***********************/
+.container .row {
+  /***********************
+      NAVIGATION
+  ***********************/ }
+  .container .row .logo {
+    width: 42%;
+    float: left; }
+    .container .row .logo .companyName {
+      display: none; }
+    .container .row .logo img {
+      width: 100%; }
+  .container .row .navigation {
+    width: 58%;
+    margin: 0 auto;
+    float: right;
+    display: block; }
+    .container .row .navigation nav {
+      width: 100%; }
+      .container .row .navigation nav ul {
+        list-style-type: none;
+        margin: .25em auto 0; }
+        .container .row .navigation nav ul li {
+          float: left;
+          margin: 0 .25em;
+          color: #111;
+          font-size: .9em; }
+          .container .row .navigation nav ul li::after {
+            content: " /"; }
+          .container .row .navigation nav ul li a {
+            color: #111; }
+            .container .row .navigation nav ul li a:hover {
+              text-decoration: none; }
+        .container .row .navigation nav ul .last::after {
+          content: ""; }
+
+/***********************
+    BANNER
+***********************/
+/***********************
+    CONTENT
+***********************/
+/***********************
+    FOOTER
+***********************/
+/***********************
+    MEDIA QUERIES
+***********************/
+
+/*# sourceMappingURL=custom.css.map */

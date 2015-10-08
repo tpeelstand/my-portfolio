@@ -1,0 +1,464 @@
+/* CUSTOM SCSS STYLESHEET */
+/***********************
+    IMPORTED FONTS
+***********************/
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+/***********************
+    VARIABLES
+***********************/
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+
+$font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-oswald:      'Oswald', sans-serif;
+$font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
+//** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
+$font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
+$font-family-base:        $font-family-sans-serif !default;
+$font-size-base:          14px !default;
+$font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-small:         ceil(($font-size-base * 0.85)) !default; // ~12px
+
+$font-size-h1:            floor(($font-size-base * 2.6)) !default; // ~36px
+$font-size-h2:            floor(($font-size-base * 2.15)) !default; // ~30px
+$font-size-h3:            ceil(($font-size-base * 1.7)) !default; // ~24px
+$font-size-h4:            ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-h5:            $font-size-base !default;
+$font-size-h6:            ceil(($font-size-base * 0.85)) !default; // ~12px
+
+//** Unit-less `line-height` for use in components like buttons.
+$line-height-base:        1.428571429 !default; // 20/14
+//** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
+$line-height-computed:    floor(($font-size-base * $line-height-base)) !default; // ~20px
+
+//** By default, this inherits from the `<body>`.
+$headings-font-family:    inherit !default;
+$headings-font-weight:    500 !default;
+$headings-line-height:    1.1 !default;
+$headings-color:          inherit !default;
+
+/***********************
+    MIXINS
+***********************/
+
+/************************
+    DEFAULTS
+************************/
+body {
+    font-family: $font-family-sans-serif;
+    background: #fbf7ed;
+}
+p, ul, li {
+    font-size: $font-size-base;
+}
+h2 {
+    font-size: $font-size-h3;
+}
+h3 {
+    font-size: $font-size-h4;
+}
+h4 {
+    font-size: $font-size-h5;
+}
+.indent {
+    margin-left: 1em;
+}
+.clear {
+    clear: both;
+}
+/***********************
+    CONTACT BAR
+***********************/
+.contact-info {
+    width: 100%;
+    background: #444;
+    border-bottom: .15em solid #999;
+    ul {
+        list-style-type: none;
+        margin: 0 auto;
+        padding: 0;
+        color: #aaaaaa;
+        font-size: $font-size-large;
+        
+        li {
+            float: none;
+            padding: .25em 1em;
+        }
+        a {
+            color: #aaaaaa;
+            
+            &:hover {
+                color: #fdeec9;
+                text-decoration: none;
+            }
+        }   
+    }
+}
+/***********************
+    HEADER
+***********************/
+header {
+    background: #333;
+    padding: 1em 0;
+    border-bottom: 2px solid #111;
+    
+    .container {
+
+        .row {
+
+            .profile {
+                float: left;
+                
+                .profile-pic {
+                    width: 100%;
+                    border: .2em solid #888;
+                    padding: .25em;
+                    border-radius: 1em 0 1em 0;
+                }
+
+                .profileInfo {
+                    display: none;   
+                } 
+            }
+            .about-me {
+                
+                blockquote {
+                    font-family: Georgia, serif;
+                    font-size: $font-size-base;
+                    font-style: italic;
+                    margin: 0.25em 0;
+                    padding: 0.25em 20px;
+                    line-height: 1.45;
+                    position: relative;
+                    color: #fdeec9;
+                    
+                    &::before {
+                        display: block;
+                        content: open-quote;
+                        font-size: 80px;
+                        position: absolute;
+                        left: -20px;
+                        top: -20px;
+                        color: #7a7a7a;
+                    }
+                    &::after {
+                        display: block;
+                        content: close-quote;
+                        font-size: 80px;
+                        position: absolute;
+                        right: 15px;
+                        bottom: -78px;
+                        color: #7a7a7a;
+                    }
+                }
+                
+            }
+        }
+    }
+}
+
+/***********************
+    CONTENT
+***********************/
+.main-content {
+    padding: 2em;
+    
+    h2 {
+        
+        a {
+            padding: 1em 0;
+            font-size: $font-size-small;
+            color: #555;
+            display: block;
+            float: none;
+            
+            &:hover {
+                text-decoration: none;
+                color: #222;
+            }
+        }
+    }
+    
+    .job {
+        border-bottom: .1em solid #ccc;
+        margin-bottom: 1em;   
+    }
+    p {
+    
+        .jobTitle {
+            font-weight: bold;
+            font-size: $font-size-large;
+        }
+    }
+    .skills {
+        background: #d9d9d9;
+        padding: 1em;
+        border: 1px solid #CCC;
+        box-shadow: 5px 5px 8px #888;
+        
+        .social {
+            width: 100%;
+            text-align: center;
+            padding: .5em 0 0 0;
+            margin-bottom: 1em;
+            border-bottom: 1px solid #CCC;
+            
+            h3 {
+               font-size: $font-size-h3; 
+            }
+            
+            img {
+                width: 80%;
+                margin-top: .5em;
+            }
+        }
+    }
+}
+
+/***********************
+    FOOTER
+***********************/
+footer {
+    background: #333;
+    border-top: 2px solid #111;
+    color: #7a7a7a;
+    
+    ul {
+        list-style-type: none;
+        padding-top: 1em;
+
+        li {
+            float: none;
+            width: 100%;
+            text-align: left;
+            padding: 1em 0;
+
+            img {
+                width: 90%;    
+            }
+            
+        }
+        
+        .title {
+                padding-top: 1.5em;
+                padding-left: .5em;
+                font-size: $font-size-h3;
+            
+                span {
+                    color: #00a1dd;
+                }
+            }
+    }
+    .copyright {
+        border-top: 1px solid #444;
+        margin-top: 2em;
+        padding: 1em;
+        p {
+            text-align: center;
+            color: #7a7a7a;
+        }
+    }
+}
+
+/***********************
+    MEDIA QUERIES
+***********************/
+/* Extra small devices (phones, less than 768px) */
+@media (min-width: 360px) {
+
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    h2 {
+    font-size: $font-size-h2;
+}
+h3 {
+    font-size: $font-size-h3;
+}
+h4 {
+    font-size: $font-size-h4;
+}
+
+    .contact-info {
+    width: 100%;
+    background: #444;
+    border-bottom: .15em solid #999;
+    ul {
+        list-style-type: none;
+        margin: 0 auto;
+        padding: 0;
+        color: #aaaaaa;
+        font-size: $font-size-large;
+        
+        li {
+            float: right;
+            padding: .25em 1em;
+        }
+        a {
+            color: #aaaaaa;
+            
+            &:hover {
+                color: #fdeec9;
+                text-decoration: none;
+            }
+        }   
+    }
+}
+    
+header {
+    background: #333;
+    padding: 1em 0;
+    border-bottom: 2px solid #111;
+    
+    .container {
+
+        .row {
+
+            .profile {
+                float: left;
+                
+                .profile-pic {
+                    width: 100%;
+                    border: 1px solid #888;
+                    padding: .25em;
+                }
+
+                .profileInfo {
+                    display: none;   
+                } 
+            }
+            .about-me {
+                
+                blockquote {
+                    font-family: Georgia, serif;
+                    font-size: $font-size-h2;
+                    font-style: italic;
+                    margin: 0.25em 0;
+                    padding: 0.25em 40px;
+                    line-height: 1.45;
+                    position: relative;
+                    color: #fdeec9;
+                    
+                    &::before {
+                        display: block;
+                        content: open-quote;
+                        font-size: 80px;
+                        position: absolute;
+                        left: -20px;
+                        top: -20px;
+                        color: #7a7a7a;
+                    }
+                    &::after {
+                        display: block;
+                        content: close-quote;
+                        font-size: 80px;
+                        position: absolute;
+                        right: 50px;
+                        bottom: -60px;
+                        color: #7a7a7a;
+                    }
+                }
+                
+            }
+        }
+    }
+}
+.main-content {
+    padding: 2em;
+    
+    h2 {
+
+        a {
+            float: right;
+            padding: 1em 0;
+            font-size: $font-size-small;
+            color: #555;
+            
+            &:hover {
+                text-decoration: none;
+                color: #222;
+            }
+        }
+    }
+    .skills {
+        background: #d9d9d9;
+        padding: .5em 1em 1em 1em;
+        border: 1px solid #CCC;
+        box-shadow: 5px 5px 8px #888;
+        
+        .social {
+            width: 100%;
+            text-align: center;
+            padding: .5em 0 0 0;
+            margin-bottom: 1em;
+            border-bottom: 1px solid #CCC;
+            
+            h3 {
+               font-size: $font-size-h3; 
+            }
+            
+            img {
+                width: 45%;    
+            }
+        }
+    }
+}
+ 
+
+    
+    footer {
+        background: #333;
+        border-top: 2px solid #111;
+        color: #7a7a7a;
+        
+        ul {
+            list-style-type: none;
+            padding-top: 1em;
+
+            li {
+                font-size: $font-size-h2;
+                float: left;
+                width: 30%;
+                text-align: center;
+                
+                .webniobium {
+                     width: 75%;
+                 }
+                
+                img {
+                    width: 60%;    
+                }
+            }
+            
+            .title {
+                padding-bottom: -10em;
+                
+                span {
+                    color: #00a1dd;
+                }
+            }
+        }
+        .copyright {
+            border-top: 1px solid #444;
+            margin-top: 2em;
+            padding: 1em;
+            p {
+                text-align: center;
+                color: #7a7a7a;
+            }
+        }
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
