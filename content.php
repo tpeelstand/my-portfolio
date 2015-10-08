@@ -36,6 +36,13 @@
             <div class="social">
                 <h3>Let's connect! &nbsp; <a href="https://www.linkedin.com/pub/nathan-ellingson/22/7b3/236" target="_blank"><img src="images/linkedin-button.png" alt="Connect with me on Linkedin"></a></h3>        
             </div>
+            <div class="github">
+                <h3>GitHub Code</h3>
+                <ul>
+                    <li><i class="fa fa-github"></i> | <a href="https://github.com/tpeelstand/portfolio" target="_blank">Portfolio Code</a> - I used HTML, SCSS, PHP & a little Font Awesome to develop this site. Feel free to take a look at the code.</li>
+                    <li><i class="fa fa-github"></i> | <a href="https://github.com/tpeelstand/My-Code-Sample" target="_blank">Example Code</a> - This is a small sample of some HTML & LESS/CSS.</li>
+                </ul>
+            </div>
             <div class="indent">
                 <h3>Coding Experience</h3>
                 <ul>

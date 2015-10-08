@@ -135,6 +135,20 @@ header {
       .main-content .skills .social img {
         width: 80%;
         margin-top: .5em; }
+    .main-content .skills .github {
+      width: 100%;
+      padding: .5em 0 0 0;
+      margin-bottom: 1em;
+      border-bottom: 1px solid #CCC; }
+      .main-content .skills .github h3 {
+        text-align: left;
+        padding-left: 1em; }
+      .main-content .skills .github ul {
+        list-style-type: none; }
+        .main-content .skills .github ul li a {
+          color: darkgoldenrod; }
+          .main-content .skills .github ul li a:hover {
+            text-decoration: none; }
 
 /***********************
     FOOTER

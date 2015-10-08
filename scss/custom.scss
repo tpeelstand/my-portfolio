@@ -214,6 +214,33 @@ header {
                 margin-top: .5em;
             }
         }
+        
+        .github {
+            width: 100%;
+            padding: .5em 0 0 0;
+            margin-bottom: 1em;
+            border-bottom: 1px solid #CCC;
+            
+            h3 {
+                text-align: left;
+                padding-left: 1em;   
+            }
+
+            ul {
+                list-style-type: none;
+
+                li { 
+                    
+                    a {
+                        color: darkgoldenrod;
+                        
+                        &:hover {
+                            text-decoration: none;   
+                        }
+                    }
+                }
+            }          
+        }
     }
 }
 
