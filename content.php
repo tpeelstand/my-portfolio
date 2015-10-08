@@ -52,9 +52,9 @@
                     <li>LESS/SCSS (& Sass)</li>
                     <li>jQuery</li>
                     <li>JavaScript</li>
-                    <li>NodeJS (Less Compling)</li>
-                    <li>Grunt (Less Compling)</li>
-                    <li>Koala (Preporcessor Tool)</li>
+                    <li>NodeJS (less compling)</li>
+                    <li>Grunt (less compling)</li>
+                    <li>Koala (preprocessor tool)</li>
                     <li>Responsive Frameworks</li>
                     <li>Responsive Development & Design</li>
                     <li>WAMP/XAMP</li>

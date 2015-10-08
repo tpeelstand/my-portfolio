@@ -142,7 +142,7 @@ header {
       border-bottom: 1px solid #CCC; }
       .main-content .skills .github h3 {
         text-align: left;
-        padding-left: 1em; }
+        padding-left: .5em; }
       .main-content .skills .github ul {
         list-style-type: none; }
         .main-content .skills .github ul li a {
