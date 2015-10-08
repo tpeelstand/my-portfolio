@@ -113,7 +113,7 @@ header {
                 
                 .profile-pic {
                     width: 100%;
-                    border: .2em solid #888;
+                    border: .15em solid #888;
                     padding: .25em;
                     border-radius: 1em 0 1em 0;
                 }
@@ -292,19 +292,10 @@ footer {
 /***********************
     MEDIA QUERIES
 ***********************/
-/* Extra small devices (phones, less than 768px) */
-@media (min-width: 360px) {
-
-}
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-
-}
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    h2 {
+h2 {
     font-size: $font-size-h2;
 }
 h3 {
@@ -314,7 +305,7 @@ h4 {
     font-size: $font-size-h4;
 }
 
-    .contact-info {
+.contact-info {
     width: 100%;
     background: #444;
     border-bottom: .15em solid #999;
@@ -341,92 +332,47 @@ h4 {
 }
     
 header {
-    background: #333;
-    padding: 1em 0;
-    border-bottom: 2px solid #111;
-    
     .container {
-
         .row {
-
             .profile {
-                float: left;
-                
-                .profile-pic {
-                    width: 100%;
-                    border: 1px solid #888;
-                    padding: .25em;
-                }
-
                 .profileInfo {
                     display: none;   
                 } 
             }
-            .about-me {
-                
+            .about-me {  
                 blockquote {
-                    font-family: Georgia, serif;
                     font-size: $font-size-h2;
-                    font-style: italic;
-                    margin: 0.25em 0;
-                    padding: 0.25em 40px;
-                    line-height: 1.45;
-                    position: relative;
-                    color: #fdeec9;
-                    
-                    &::before {
-                        display: block;
-                        content: open-quote;
+                    padding: .25em 40px;
+                    &::before { 
                         font-size: 80px;
                         position: absolute;
                         left: -20px;
                         top: -20px;
-                        color: #7a7a7a;
+                        
                     }
                     &::after {
-                        display: block;
-                        content: close-quote;
                         font-size: 80px;
                         position: absolute;
                         right: 50px;
                         bottom: -60px;
-                        color: #7a7a7a;
                     }
-                }
-                
+                }          
             }
         }
     }
 }
-.main-content {
-    padding: 2em;
     
+/* MAIN */
+.main-content {   
     h2 {
-
         a {
             float: right;
-            padding: 1em 0;
-            font-size: $font-size-small;
-            color: #555;
-            
-            &:hover {
-                text-decoration: none;
-                color: #222;
-            }
         }
     }
     .skills {
-        background: #d9d9d9;
         padding: .5em 1em 1em 1em;
-        border: 1px solid #CCC;
-        box-shadow: 5px 5px 8px #888;
         
         .social {
-            width: 100%;
-            text-align: center;
-            padding: .5em 0 0 0;
-            margin-bottom: 1em;
-            border-bottom: 1px solid #CCC;
             
             h3 {
                font-size: $font-size-h3; 
@@ -440,16 +386,9 @@ header {
 }
  
 
-    
-    footer {
-        background: #333;
-        border-top: 2px solid #111;
-        color: #7a7a7a;
-        
+/* FOOTER */    
+footer {  
         ul {
-            list-style-type: none;
-            padding-top: 1em;
-
             li {
                 font-size: $font-size-h2;
                 float: left;
@@ -464,28 +403,6 @@ header {
                     width: 60%;    
                 }
             }
-            
-            .title {
-                padding-bottom: -10em;
-                
-                span {
-                    color: #00a1dd;
-                }
-            }
-        }
-        .copyright {
-            border-top: 1px solid #444;
-            margin-top: 2em;
-            padding: 1em;
-            p {
-                text-align: center;
-                color: #7a7a7a;
-            }
         }
     }
-}
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-
 }
