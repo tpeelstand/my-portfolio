@@ -154,7 +154,7 @@ header {
     border-bottom: 2px solid #111;
     border-top: 2px solid #111;
     
-    .developer {
+    /* .developer {
         font-family: 'Ubuntu Mono', ;    
     }
     .meets {
@@ -162,12 +162,12 @@ header {
     }
     .designer {
         font-family: 'Satisfy', cursive;    
-    }
+    } */
     h1 {
         margin: 0 auto;
         text-align: center;
         color: #111; 
-        font-size: $font-size-h1;
+        font-size: $font-size-h3;
     }
 }
 /***********************
@@ -323,7 +323,9 @@ footer {
                 padding-top: 1.5em;
                 padding-left: .5em;
                 text-align: center;
-        
+                background: none;
+                border: none;
+                 font-size: $font-size-h3;
                 span {
                     color: #00a1dd;
                 }
@@ -400,6 +402,12 @@ h4 {
                 text-decoration: none;
             }
         }   
+    }
+}
+
+.title {
+    h1 {
+        font-size: $font-size-h1;
     }
 }
     
@@ -486,7 +494,6 @@ footer {
     }
         ul {
             li {
-                font-size: $font-size-h2;
                 float: left;
                 width: 30%;
                 text-align: center;

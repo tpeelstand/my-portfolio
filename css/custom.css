@@ -94,18 +94,21 @@ header {
   padding: 1em 0;
   text-transform: uppercase;
   border-bottom: 2px solid #111;
-  border-top: 2px solid #111; }
-  .title .developer {
-    font-family: "Ubuntu Mono"; }
-  .title .meets {
-    font-size: 30px; }
-  .title .designer {
-    font-family: 'Satisfy', cursive; }
+  border-top: 2px solid #111;
+  /* .developer {
+      font-family: 'Ubuntu Mono', ;    
+  }
+  .meets {
+      font-size: $font-size-h2;   
+  }
+  .designer {
+      font-family: 'Satisfy', cursive;    
+  } */ }
   .title h1 {
     margin: 0 auto;
     text-align: center;
     color: #111;
-    font-size: 36px; }
+    font-size: 24px; }
 
 /***********************
     CONTENT
@@ -208,7 +211,10 @@ footer {
   footer .title {
     padding-top: 1.5em;
     padding-left: .5em;
-    text-align: center; }
+    text-align: center;
+    background: none;
+    border: none;
+    font-size: 24px; }
     footer .title span {
       color: #00a1dd; }
   footer ul {
@@ -265,6 +271,9 @@ footer {
           color: #fdeec9;
           text-decoration: none; }
 
+  .title h1 {
+    font-size: 36px; }
+
   header .container .row .profile .profileInfo {
     display: none; }
   header .container .row .about-me blockquote {
@@ -304,7 +313,6 @@ footer {
     border-bottom: none;
     margin-top: .5em; }
   footer ul li {
-    font-size: 30px;
     float: left;
     width: 30%;
     text-align: center; }
