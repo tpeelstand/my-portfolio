@@ -18,13 +18,13 @@
   <body>
     <div class="wrapper">
         
-        <div class="contact-info">
-            <?php include 'contact-bar.php'; ?>
-        </div>
-        
         <header>
             <?php include 'header.php'; ?>
         </header>
+        
+        <div class="title">
+            <h1 style="margin: .75em auto 0;text-align: center;">Front-end Web Developer</h1>
+        </div>
         
         <main class="container-fluid">
             <?php include 'content.php'; ?>

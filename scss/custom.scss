@@ -68,34 +68,7 @@ h4 {
 .clear {
     clear: both;
 }
-/***********************
-    CONTACT BAR
-***********************/
-.contact-info {
-    width: 100%;
-    background: #444;
-    border-bottom: .15em solid #999;
-    ul {
-        list-style-type: none;
-        margin: 0 auto;
-        padding: 0;
-        color: #aaaaaa;
-        font-size: $font-size-large;
-        
-        li {
-            float: none;
-            padding: .25em 1em;
-        }
-        a {
-            color: #aaaaaa;
-            
-            &:hover {
-                color: #fdeec9;
-                text-decoration: none;
-            }
-        }   
-    }
-}
+
 /***********************
     HEADER
 ***********************/
@@ -201,17 +174,34 @@ header {
         .social {
             width: 100%;
             text-align: center;
-            padding: .5em 0 0 0;
+            padding: .5em 0 0 0 ;
             margin-bottom: 1em;
-            border-bottom: 1px solid #CCC;
-            
-            h3 {
-               font-size: $font-size-h3; 
-            }
+            border-top: 1px solid #CCC;
             
             img {
                 width: 80%;
                 margin-top: .5em;
+            }
+            
+            ul {
+                list-style-type: none;
+                margin: 0 auto;
+                padding: .5em 0 0 0;
+                color: #333;
+                font-size: $font-size-large;
+
+                li {
+                    float: none;
+                    padding: 0 1em;
+                }
+                a {
+                    color: #333;
+
+                    &:hover {
+                        color: #F00;
+                        text-decoration: none;
+                    }
+                }   
             }
         }
         
@@ -221,15 +211,16 @@ header {
             margin-bottom: 1em;
             border-bottom: 1px solid #CCC;
             
-            h3 {
+            h4 {
                 text-align: left;
-                padding-left: .5em;   
+                padding-left: 1em;   
             }
 
             ul {
                 list-style-type: none;
 
                 li { 
+                    padding: .5em 0;
                     
                     a {
                         color: darkgoldenrod;
@@ -380,6 +371,9 @@ header {
             
             img {
                 width: 45%;    
+            }
+            ul {
+                padding: 1em 0 0 0;
             }
         }
     }
