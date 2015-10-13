@@ -1,32 +1,45 @@
 <div class="container main-content">
     <div class="row">
         <section class="col-xs-12 col-md-8">
-            <h2>Web Development Experience <a href="info/resume.pdf" target="_blank"><i class="fa fa-print"></i> Print Resume</a></h2> 
+            <h2>Web Development Experience <a href="info/nathan-ellingson-resume.pdf" target="_blank"><i class="fa fa-print"></i> Print Resume</a></h2> 
             
             
             <!-- Current -->
                 <div class="job">
                     <p><span class="jobTitle">Freelance Contractor</span><br> 
                     <em>July 2015 – Present</em></p>
-                    <p>As a freelance contractor I am currently engaged in a WordPress customization project with a company in Minnesota and assisting a local Wisconsin food pantry build a website so information can be more accessible for people in need.  Specifically, I am using HTML, CSS, and PHP as well as WordPress plugins to customize and build a for-profit site for my Minnesota client. For the Wisconsin food pantry project, I am utilizing Bootstrap 4 with SCSS and HTML5, PHP, jQuery, and Font Awesome. These projects also have me using Adobe Photoshop to assist with photo editing, graphic design and alteration, and layout.</p>
+                    <p>As a freelance contractor I am currently engaged in a WordPress customization project with a company in Minnesota. Specifically, I am using HTML, CSS, and PHP as well as WordPress plugins to customize and build a for-profit site for my Minnesota client. This project also has me using Adobe Photoshop to assist with photo editing, graphic design and alteration, and layout.</p>
+                </div>
+            <!-- Creative Cow Design -->
+            <div class="job">
+                    <p><span class="jobTitle">Creative Cow Design - Co-Founder/Front-end developer</span><a class="web-link" href="http://creative-cow-design.com/" target="_blank"><i class="fa fa-desktop"></i> Visit Site</a><br> 
+                    <em>June 2015 – Present</em></p>
+                    <p>In June myself and a former co-worker founded Creative Cow Design which is based out of Oconomowoc, Wisconsin. Currently we are assisting a local Wisconsin food pantry build a website so information can be more accessible for people in need. We are also working on a site for a client in Wiscosin that is an ItWorks (<a href="http://itworks.com" target="_blank" rel="nofollow">http://itworks.com</a>) sales woman building her a person sales site. For these projects, we are utilizing Bootstrap 4, SCSS, HTML5, PHP, JavaScript, and jQuery. These projects also have us using Adobe Photoshop to assist with photo editing, graphic design and alteration, and layout.</p>
+                </div>
+            <!-- Web Niobium -->
+            <div class="job">
+                    <p><span class="jobTitle">Web Niobium - Co-Founder/Front-end developer</span>
+                        <a class="web-link" href="http://webniobium.com" target="_blank"><i class="fa fa-desktop"></i> Visit Site</a><br> 
+                    <em>July 2012 – Present</em></p>
+                    <p>In July of 2012 myself and my brother decided to start our own web development business, him working as the back-end developer and myself working as the front-end developer. During our time working together we have done many different projects to include websites, ebooks, ecommerce prototyping, and Photoshop mockup's for clients. These projects have us using HTML, CSS3, ASP, jQuery, JavaScript, Ajax, and Abode Photoshop.</p>
                 </div>
             
             <!-- Flexion -->
                 <div class="job">
-                    <p><span class="jobTitle">Flexion Inc. – Front-End Web Developer</span><br>
+                    <p><span class="jobTitle">Flexion Inc. – Front-end developer</span><br>
                     <em>January 2015 – July 2015</em></p>
-                    <p>During my six-month contract position at Flexion, Inc. Madison, WI, I worked remotely developing a web application for Great Lake Student Loans. I was the primary front-end developer, working with a team of 12. My main responsibilities were to take the PSD mockups and code them out using HTML and LESS/CSS. Additionally, I also assisted the team by testing AngularJS moduals with ProtractorJS to ensure code was working effectively and as designed. For this project we used Eclipse as our IDE. Contract concluded when project ended.</p>
+                    <p>During my six-month contract position at Flexion, Inc. Madison, WI, I worked remotely developing a web application for Great Lake Student Loans. I was the primary front-end developer, working with a team of 12. My main responsibilities were to take the PSD mockups and code them out using HTML and LESS/CSS. Additionally, I also assisted the team by testing AngularJS modules with ProtractorJS to ensure code was working effectively and as designed. For this project we used Eclipse as our IDE. Contract concluded when project ended.</p>
                 </div>
             
             <!-- Promega -->
                 <div class="job">
-                    <p><span class="jobTitle">Promega Corporation, Inc. – Front-End Web Developer</span><br>
+                    <p><span class="jobTitle">Promega Corporation, Inc. – Front-end developer</span><br>
                     <em>September 2014 – January 2015</em></p>
                     <p>During a Five-month temp position at Promega Corporation in Madison, WI I worked in a .NET environment using SiteCore as the main CMS. As a Front End UX/UI Developer my daily tasks involved updating WordPress themes, developing new pages in SiteCore, creating HTML emails for ad campaigns, creating Photoshop mockups for clients, developing the user interface library and updating the Promega Corporation website to be fully responsive using the PURE CSS responsive framework. Doing these tasks included the hand coding of HTML, CSS, and understanding basic PHP for WordPress updates. I also worked closely with many different departments within Promega Corporation in order to ensure updates and development was completed correctly and in a timely manner.</p>
                 </div>
             
             <!-- eMarketing -->
-            <p><span class="jobTitle">eMarketing4Business – Lead Front-End Developer</span><br>
+            <p><span class="jobTitle">eMarketing4Business – Lead Front-end developer</span><br>
             <em>March 2012 – September 2014</em></p>
             <p>I began my web development career at eMarketing4Business in Waukesha, WI. Ultimately, I moved from developer trainee to team lead, leading a team of three junior web developers. My job duties eMarketing included ensuring all client web design changes and updates are assigned and completed to meet customer requests in a timely manner. This included hand coding HTML, CSS, with some basic JavaScript, & jQuery. I also completed web development tasks and assist clients with IT related issues on their websites and/or email accounts. I was the main point of contact in training clients to correctly make changes to their websites using our WYSIWYG Editor. I also performed live website changes for clients in order to assist the company with getting approvals on websites.</p>
 
@@ -36,8 +49,13 @@
             <div class="github">
                 <h4>GitHub Code</h4>
                 <ul>
-                    <li><i class="fa fa-github"></i> | <a href="https://github.com/tpeelstand/portfolio" target="_blank">Portfolio Code</a> - developed this site using HTML, SCSS, PHP & a little Font Awesome . Code is available for inspection.</li>
-                    <li><i class="fa fa-github"></i> | <a href="https://github.com/tpeelstand/My-Code-Sample" target="_blank">Example Code</a> - A small sample of HTML & LESS/CSS code.</li>
+                    <li><i class="fa fa-code"></i> | <a href="https://github.com/tpeelstand/portfolio" target="_blank">Portfolio Code</a> - developed this site using HTML, SCSS/CSS, PHP & a little Font Awesome . Code is available for inspection.</li>
+                    <li><i class="fa fa-code"></i> | <a href="https://github.com/tpeelstand/My-Code-Sample" target="_blank">Example Code</a> - A small sample of HTML & LESS/CSS code.</li>
+                </ul>
+                
+                <h4>Current Projects</h4>
+                <ul>
+                    <li><i class="fa fa-code"></i> | <a href="https://github.com/tpeelstand/Beaver-Dam-Community-Meal-Coalition" target="_blank">Beaver Dam Community Meal Coalition</a> -project currently begin worked on. I am using Bootstrap, HTML5, PHP, and SCSS/CSS. </li>
                 </ul>
             </div>
             <div class="indent">
@@ -48,7 +66,6 @@
                     <li>CSS3</li>
                     <li>LESS/SCSS (& Sass)</li>
                     <li>jQuery</li>
-                    <li>JavaScript</li>
                     <li>NodeJS (less compling)</li>
                     <li>Grunt (less compling)</li>
                     <li>Koala (preprocessor tool)</li>
@@ -63,6 +80,7 @@
                 
                 <h4>Currently Studying</h4>
                 <ul>
+                    <li>JavaScript</li>
                     <li>PHP</li>
                     <li>MySQL</li>
                 </ul>

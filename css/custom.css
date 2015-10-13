@@ -2,8 +2,9 @@
 /***********************
     IMPORTED FONTS
 ***********************/
-@import url(https://fonts.googleapis.com/css?family=Oswald);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono);
+@import url(https://fonts.googleapis.com/css?family=Satisfy);
 /***********************
     VARIABLES
 ***********************/
@@ -35,13 +36,19 @@ h4 {
 .clear {
   clear: both; }
 
+a {
+  color: #555; }
+  a:hover {
+    text-decoration: none;
+    color: #222; }
+
 /***********************
     HEADER
 ***********************/
 header {
   background: #333;
   padding: 1em 0;
-  border-bottom: 2px solid #111; }
+  border-bottom: 2px solid darkgoldenrod; }
   header .container .row .profile {
     float: left; }
     header .container .row .profile .profile-pic {
@@ -49,6 +56,8 @@ header {
       border: .15em solid #888;
       padding: .25em;
       border-radius: 1em 0 1em 0; }
+      header .container .row .profile .profile-pic:hover {
+        border: .15em solid #fdeec9; }
     header .container .row .profile .profileInfo {
       display: none; }
   header .container .row .about-me blockquote {
@@ -78,8 +87,32 @@ header {
       color: #7a7a7a; }
 
 /***********************
+    TITLE
+***********************/
+.title {
+  background: #fdeec9;
+  padding: 1em 0;
+  text-transform: uppercase;
+  border-bottom: 2px solid #111;
+  border-top: 2px solid #111; }
+  .title .developer {
+    font-family: "Ubuntu Mono"; }
+  .title .meets {
+    font-size: 30px; }
+  .title .designer {
+    font-family: 'Satisfy', cursive; }
+  .title h1 {
+    margin: 0 auto;
+    text-align: center;
+    color: #111;
+    font-size: 36px; }
+
+/***********************
     CONTENT
 ***********************/
+main {
+  border-top: 2px solid darkgoldenrod; }
+
 .main-content {
   padding: 2em; }
   .main-content h2 a {
@@ -97,6 +130,15 @@ header {
   .main-content p .jobTitle {
     font-weight: bold;
     font-size: 18px; }
+  .main-content p .web-link {
+    padding: 1em 0;
+    font-size: 12px;
+    color: #555;
+    display: block;
+    float: none; }
+    .main-content p .web-link:hover {
+      text-decoration: none;
+      color: #222; }
   .main-content .skills {
     background: #d9d9d9;
     padding: 1em;
@@ -149,6 +191,26 @@ footer {
   background: #333;
   border-top: 2px solid #111;
   color: #7a7a7a; }
+  footer h2 {
+    font-size: 30px;
+    margin: 0 auto;
+    padding: 0; }
+  footer .web {
+    margin-top: .5em;
+    border-bottom: 1px solid #444; }
+  footer .mockups {
+    margin-top: .5em;
+    border-bottom: 1px solid #444; }
+  footer .affilated {
+    margin-top: .5em; }
+  footer .personal {
+    font-size: 30px; }
+  footer .title {
+    padding-top: 1.5em;
+    padding-left: .5em;
+    text-align: center; }
+    footer .title span {
+      color: #00a1dd; }
   footer ul {
     list-style-type: none;
     padding-top: 1em; }
@@ -158,13 +220,10 @@ footer {
       text-align: left;
       padding: 1em 0; }
       footer ul li img {
-        width: 90%; }
-    footer ul .title {
-      padding-top: 1.5em;
-      padding-left: .5em;
-      font-size: 24px; }
-      footer ul .title span {
-        color: #00a1dd; }
+        width: 80%;
+        opacity: .8; }
+        footer ul li img:hover {
+          opacity: 1; }
   footer .copyright {
     border-top: 1px solid #444;
     margin-top: 2em;
@@ -225,6 +284,8 @@ footer {
   /* MAIN */
   .main-content h2 a {
     float: right; }
+  .main-content p .web-link {
+    float: right; }
   .main-content .skills {
     padding: .5em 1em 1em 1em; }
     .main-content .skills .social h3 {
@@ -235,14 +296,21 @@ footer {
       padding: 1em 0 0 0; }
 
   /* FOOTER */
+  footer .web {
+    border-bottom: none; }
+  footer .mockups {
+    border-left: 1px solid #555;
+    border-right: 1px solid #555;
+    border-bottom: none;
+    margin-top: .5em; }
   footer ul li {
     font-size: 30px;
     float: left;
     width: 30%;
     text-align: center; }
     footer ul li .webniobium {
-      width: 75%; }
+      width: 100%; }
     footer ul li img {
-      width: 60%; } }
+      width: 90%; } }
 
 /*# sourceMappingURL=custom.css.map */

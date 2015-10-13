@@ -2,8 +2,9 @@
 /***********************
     IMPORTED FONTS
 ***********************/
-@import url(https://fonts.googleapis.com/css?family=Oswald);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono);
+@import url(https://fonts.googleapis.com/css?family=Satisfy);
 /***********************
     VARIABLES
 ***********************/
@@ -69,13 +70,21 @@ h4 {
     clear: both;
 }
 
+a {
+    color: #555;
+    
+    &:hover {
+        text-decoration: none;
+        color: #222;
+    }
+}
 /***********************
     HEADER
 ***********************/
 header {
     background: #333;
     padding: 1em 0;
-    border-bottom: 2px solid #111;
+    border-bottom: 2px solid darkgoldenrod;
     
     .container {
 
@@ -89,6 +98,10 @@ header {
                     border: .15em solid #888;
                     padding: .25em;
                     border-radius: 1em 0 1em 0;
+                    
+                    &:hover {
+                    border: .15em solid #fdeec9;
+                    }
                 }
 
                 .profileInfo {
@@ -131,10 +144,38 @@ header {
         }
     }
 }
-
+/***********************
+    TITLE
+***********************/
+.title {
+    background: #fdeec9;
+    padding: 1em 0;
+    text-transform: uppercase;
+    border-bottom: 2px solid #111;
+    border-top: 2px solid #111;
+    
+    .developer {
+        font-family: 'Ubuntu Mono', ;    
+    }
+    .meets {
+        font-size: $font-size-h2;   
+    }
+    .designer {
+        font-family: 'Satisfy', cursive;    
+    }
+    h1 {
+        margin: 0 auto;
+        text-align: center;
+        color: #111; 
+        font-size: $font-size-h1;
+    }
+}
 /***********************
     CONTENT
 ***********************/
+main {
+    border-top: 2px solid darkgoldenrod;
+}
 .main-content {
     padding: 2em;
     
@@ -163,6 +204,19 @@ header {
         .jobTitle {
             font-weight: bold;
             font-size: $font-size-large;
+        }
+        
+        .web-link {
+            padding: 1em 0;
+            font-size: $font-size-small;
+            color: #555;
+            display: block;
+            float: none;
+            
+            &:hover {
+                text-decoration: none;
+                color: #222;
+            }
         }
     }
     .skills {
@@ -243,6 +297,38 @@ footer {
     border-top: 2px solid #111;
     color: #7a7a7a;
     
+    h2 {
+        font-size: $font-size-h2; 
+        margin: 0 auto;
+        padding: 0;
+    }
+    .web {
+        margin-top: .5em;
+        border-bottom: 1px solid #444;
+    }
+    .mockups {
+        margin-top: .5em;
+        border-bottom: 1px solid #444;
+    }
+    .affilated {
+        margin-top: .5em;
+        
+    }
+    
+    .personal {
+        font-size: $font-size-h2;
+    }
+    
+    .title {
+                padding-top: 1.5em;
+                padding-left: .5em;
+                text-align: center;
+        
+                span {
+                    color: #00a1dd;
+                }
+            }
+    
     ul {
         list-style-type: none;
         padding-top: 1em;
@@ -254,20 +340,15 @@ footer {
             padding: 1em 0;
 
             img {
-                width: 90%;    
+                width: 80%;
+                opacity: .8;
+                
+                &:hover {
+                    opacity: 1;   
+                }
             }
             
         }
-        
-        .title {
-                padding-top: 1.5em;
-                padding-left: .5em;
-                font-size: $font-size-h3;
-            
-                span {
-                    color: #00a1dd;
-                }
-            }
     }
     .copyright {
         border-top: 1px solid #444;
@@ -360,6 +441,13 @@ header {
             float: right;
         }
     }
+    
+    p {
+        
+        .web-link {
+            float: right;
+        }
+    }
     .skills {
         padding: .5em 1em 1em 1em;
         
@@ -381,7 +469,21 @@ header {
  
 
 /* FOOTER */    
-footer {  
+footer { 
+    
+    .web {
+        border-bottom: none;
+    }
+    .mockups {
+        border-left: 1px solid #555;
+        border-right: 1px solid #555;
+        border-bottom: none;
+        margin-top: .5em;
+    }
+    
+    .affiliated {
+
+    }
         ul {
             li {
                 font-size: $font-size-h2;
@@ -390,11 +492,11 @@ footer {
                 text-align: center;
                 
                 .webniobium {
-                     width: 75%;
+                     width: 100%;
                  }
                 
                 img {
-                    width: 60%;    
+                    width: 90%;    
                 }
             }
         }

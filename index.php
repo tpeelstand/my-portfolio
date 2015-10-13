@@ -23,7 +23,7 @@
         </header>
         
         <div class="title">
-            <h1 style="margin: .75em auto 0;text-align: center;">Front-end Web Developer</h1>
+            <h1><span class="developer">Front-end Web Developer </span> <span class="meets"> meets </span> <span class="designer"> UI Designer</span></h1>
         </div>
         
         <main class="container-fluid">
