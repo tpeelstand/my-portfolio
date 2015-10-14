@@ -14,14 +14,14 @@
             <div class="job">
                     <p><span class="jobTitle">Creative Cow Design - Co-Founder/Front-end developer</span><a class="web-link" href="http://creative-cow-design.com/" target="_blank"><i class="fa fa-desktop"></i> Visit Site</a><br> 
                     <em>June 2015 – Present</em></p>
-                    <p>In June myself and a former co-worker founded Creative Cow Design which is based out of Oconomowoc, Wisconsin. Currently we are assisting a local Wisconsin food pantry build a website so information can be more accessible for people in need. We are also working on a site for a client in Wiscosin that is an ItWorks (<a href="http://itworks.com" target="_blank" rel="nofollow">http://itworks.com</a>) sales woman building her a person sales site. For these projects, we are utilizing Bootstrap 4, SCSS, HTML5, PHP, JavaScript, and jQuery. These projects also have us using Adobe Photoshop to assist with photo editing, graphic design and alteration, and layout.</p>
+                    <p>In June, myself and a graphic designer founded Creative Cow Design which, is based out of Oconomowoc, Wisconsin. Currently we are assisting a local Wisconsin food pantry build a website so information can be more accessible for people in need. We are also working on a site for a client that is a sales woman building her a personal sales site for her business. For these projects, we are utilizing Bootstrap 4, SCSS, HTML5, PHP, JavaScript, and jQuery. These projects also have us using Adobe Photoshop to assist with photo editing, graphic design and alteration, and layout.</p>
                 </div>
             <!-- Web Niobium -->
             <div class="job">
                     <p><span class="jobTitle">Web Niobium - Co-Founder/Front-end developer</span>
                         <a class="web-link" href="http://webniobium.com" target="_blank"><i class="fa fa-desktop"></i> Visit Site</a><br> 
                     <em>July 2012 – Present</em></p>
-                    <p>In July of 2012 myself and my brother decided to start our own web development business, him working as the back-end developer and myself working as the front-end developer. During our time working together we have done many different projects to include websites, ebooks, ecommerce prototyping, and Photoshop mockup's for clients. These projects have us using HTML, CSS3, ASP, jQuery, JavaScript, Ajax, and Abode Photoshop.</p>
+                    <p>In July of 2012 my brother and I decided to start our own web development business. Ben is the back-end developer and I am the front-end developer. During our time working together we have done a variety of projects including websites, ebooks, ecommerce prototyping, and Photoshop mockup's for clients. These projects have us using HTML, CSS3, ASP, jQuery, JavaScript, Ajax, and Abode Photoshop.</p>
                 </div>
             
             <!-- Flexion -->
@@ -35,13 +35,13 @@
                 <div class="job">
                     <p><span class="jobTitle">Promega Corporation, Inc. – Front-end developer</span><br>
                     <em>September 2014 – January 2015</em></p>
-                    <p>During a Five-month temp position at Promega Corporation in Madison, WI I worked in a .NET environment using SiteCore as the main CMS. As a Front End UX/UI Developer my daily tasks involved updating WordPress themes, developing new pages in SiteCore, creating HTML emails for ad campaigns, creating Photoshop mockups for clients, developing the user interface library and updating the Promega Corporation website to be fully responsive using the PURE CSS responsive framework. Doing these tasks included the hand coding of HTML, CSS, and understanding basic PHP for WordPress updates. I also worked closely with many different departments within Promega Corporation in order to ensure updates and development was completed correctly and in a timely manner.</p>
+                    <p>During a five-month temp position at Promega Corporation in Madison, WI I worked in a .NET environment using SiteCore as the main CMS. As a Front End UX/UI Developer my daily tasks involved updating WordPress themes, developing new pages in SiteCore, creating HTML emails for ad campaigns, creating Photoshop mockups for clients, developing the user interface library and updating the Promega Corporation website to be fully responsive using the PURE CSS responsive framework. Doing these tasks included the hand coding of HTML, CSS, and understanding basic PHP for WordPress updates. I also worked closely with many different departments within Promega Corporation in order to ensure updates and development were completed correctly and in a timely manner.</p>
                 </div>
             
             <!-- eMarketing -->
-            <p><span class="jobTitle">eMarketing4Business – Lead Front-end developer</span><br>
+            <p><span class="jobTitle">eMarketing4Business – Lead front-end web designer</span><br>
             <em>March 2012 – September 2014</em></p>
-            <p>I began my web development career at eMarketing4Business in Waukesha, WI. Ultimately, I moved from developer trainee to team lead, leading a team of three junior web developers. My job duties eMarketing included ensuring all client web design changes and updates are assigned and completed to meet customer requests in a timely manner. This included hand coding HTML, CSS, with some basic JavaScript, & jQuery. I also completed web development tasks and assist clients with IT related issues on their websites and/or email accounts. I was the main point of contact in training clients to correctly make changes to their websites using our WYSIWYG Editor. I also performed live website changes for clients in order to assist the company with getting approvals on websites.</p>
+            <p>I began my web development career at eMarketing4Business in Waukesha, WI. Ultimately, I moved from developer trainee to team lead, leading a team of three junior web developers. My job duties at eMarketing included ensuring all client web design changes and updates were assigned and completed to meet customer requests in a timely manner. This included hand coding HTML, CSS, with some basic JavaScript, & jQuery. I also completed web development tasks and assist clients with IT related issues on their websites and/or email accounts. I was the main point of contact in training clients to correctly make changes to their websites using our WYSIWYG Editor. I also performed live website changes for clients in order to assist the company with getting approvals on websites.</p>
 
             
         </section>
@@ -49,13 +49,13 @@
             <div class="github">
                 <h4>GitHub Code</h4>
                 <ul>
-                    <li><i class="fa fa-code"></i> | <a href="https://github.com/tpeelstand/portfolio" target="_blank">Portfolio Code</a> - developed this site using HTML, SCSS/CSS, PHP & a little Font Awesome . Code is available for inspection.</li>
+                    <li><i class="fa fa-code"></i> | <a href="https://github.com/tpeelstand/portfolio" target="_blank">Portfolio Code</a> - developed this site using HTML, SCSS/CSS, PHP & a little Font Awesome. Code is available for inspection.</li>
                     <li><i class="fa fa-code"></i> | <a href="https://github.com/tpeelstand/My-Code-Sample" target="_blank">Example Code</a> - A small sample of HTML & LESS/CSS code.</li>
                 </ul>
                 
                 <h4>Current Projects</h4>
                 <ul>
-                    <li><i class="fa fa-code"></i> | <a href="https://github.com/tpeelstand/Beaver-Dam-Community-Meal-Coalition" target="_blank">Beaver Dam Community Meal Coalition</a> -project currently begin worked on. I am using Bootstrap, HTML5, PHP, and SCSS/CSS. </li>
+                    <li><i class="fa fa-code"></i> | <a href="https://github.com/tpeelstand/Beaver-Dam-Community-Meal-Coalition" target="_blank">Beaver Dam Community Meal Coalition</a> -project currently being worked on. I am using Bootstrap, HTML5, PHP, and SCSS/CSS. This project is ongoing.</li>
                 </ul>
             </div>
             <div class="indent">
@@ -88,7 +88,7 @@
                 <h4>CMS Expertise</h4>
                 <ul>
                     <li>WordPress - child themeing and customizations</li>
-                    <li>SiteCore - front end design, development & prototyping</li>
+                    <li>SiteCore - front-end design, development & prototyping</li>
                     <li>GetSimpleCMS - Theming and customizations</li>
                 </ul>
 

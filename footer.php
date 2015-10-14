@@ -12,7 +12,7 @@
             <h2 class="title"><span>Photoshop</span> Mockups</h2>
                 <ul>
                     <li><a href="http://webniobium.com/abqc-usa/ABQC-USA.jpg" target="_blank"><img src="images/mockups/abqc.jpg" title="ABQC USA Mockup"></a></li>
-                    <li><a href="http://webniobium.com/gerlach-nature-photography/mock-up/mock-up.jpg" target="_blank"><img src="images/mockups/gerlachs-photography.jpg" title="Gerlach's Nature Photography"></a></li>
+                    <li><a href="http://creative-cow-design.com/petal/petal-mockup.jpg" target="_blank"><img src="images/mockups/petal.jpg" title="Petal Mockup"></a></li>
                     <li><a href="http://webniobium.com/interstate-sealant/mockup.jpg" target="_blank"><img src="images/mockups/interstate-sealant.jpg" title="Interstate Sealant"></a></li>
                 </ul>
         </section>
