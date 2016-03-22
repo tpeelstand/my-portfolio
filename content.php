@@ -5,10 +5,13 @@
             
             
             <!-- Current -->
+            
+            <!-- Freelance & Contract Work -->
+            <div class="contract-work">
                 <div class="job">
                     <p><span class="jobTitle">Freelance Contractor</span><br> 
-                    <em>July 2015 – Present</em></p>
-                    <p>As a freelance contractor I am currently engaged in a WordPress customization project with a company in Minnesota. Specifically, I am using HTML, CSS, and PHP as well as WordPress plugins to customize and build a for-profit site for my Minnesota client. This project also has me using Adobe Photoshop to assist with photo editing, graphic design and alteration, and layout.</p>
+                    <em>September 2015 – Present</em></p>
+                    <p>As a freelance contractor I am currently engaged in a WordPress customization project with a company in Minnesota. Specifically, I am using HTML, CSS, and PHP as well as WordPress plugins to customize and build a for-profit site for my Minnesota client. This project also has me using Adobe Photoshop to assist with photo editing, graphic design and alteration, and layout.</p>    
                 </div>
             <!-- Creative Cow Design -->
             <div class="job">
@@ -37,6 +40,8 @@
                     <em>September 2014 – January 2015</em></p>
                     <p>During a five-month temp position at Promega Corporation in Madison, WI I worked in a .NET environment using SiteCore as the main CMS. As a Front End UX/UI Developer my daily tasks involved updating WordPress themes, developing new pages in SiteCore, creating HTML emails for ad campaigns, creating Photoshop mockups for clients, developing the user interface library and updating the Promega Corporation website to be fully responsive using the PURE CSS responsive framework. Doing these tasks included the hand coding of HTML, CSS, and understanding basic PHP for WordPress updates. I also worked closely with many different departments within Promega Corporation in order to ensure updates and development were completed correctly and in a timely manner.</p>
                 </div>
+            </div>
+            <!-- /Freelance & Contract Work -->
             
             <!-- eMarketing -->
             <p><span class="jobTitle">eMarketing4Business – Lead front-end web designer</span><br>
