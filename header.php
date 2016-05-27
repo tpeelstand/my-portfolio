@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row">
         <section class="col-xs-4 col-md-2 profile">
-            <a href="#connect"><img class="profile-pic" src="images/profile-pic-2.jpg"></a>
+            <a href="#connect"><img class="profile-pic" src="images/profile-pic.jpg"></a>
             <h1 class="profileInfo">Nathan Ellingson - Web Development Resume</h1>
         </section>
         <section class="col-xs-8 col-md-10 about-me">

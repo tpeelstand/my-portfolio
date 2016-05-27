@@ -4,8 +4,8 @@
                 <h2 class="title"><span>Web</span> Development</h2>
             <ul>
                     <li><a href="http://www.buckeyetrenchers.com" target="_blank"><img src="images/sites/buckeye.jpg" title="Buckeye Trenchers"></a></li>
-                    <li><a href="http://www.roysmotorsports.com/" target="_blank"><img src="images/sites/roysmotorports.jpg" title="Roys Motor Sports"></a></li>
-                    <li><a href="http://www.promega.com" target="_blank"><img src="images/sites/promega.jpg" title="Promega Corporation"></a></li>
+                    <li><a href="http://www.creativecowwi.com/marriott-landing-page/" target="_blank"><img src="images/sites/marriott.jpg" title="Landing Page for Marriott email ad Campaign"></a></li>
+                    <li><a href="http://creativecowwi.com/mot/" target="_blank"><img src="images/sites/promega.jpg" title="Promega Corporation"></a></li>
                 </ul>
         </section>
         <section class="col-xs-12 col-md-4 mockups">
