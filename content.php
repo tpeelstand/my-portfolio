@@ -11,7 +11,7 @@
                 <div class="job">
                     <p><span class="jobTitle">American Society of Quality</span><br> 
                     <em>November 2015 - Present</em></p>
-                    <p>Currently I am engaged in a contract position which has be working at the American Society of Quality in Milwaukee, WI. I have been working in both .NET and Java environments. My primary responsibilities include front-end development and to technically apply knowledge of HTML, CSS, JavaScript and CMS development to ASQ websites and IT Web Applications. This requires me to create custom HTML web pages and to understand and build web pages that include ASP. I am also creating and online reference guide for Sitecore CMS and training staff on how to use Sitecore to edit, create and update pages. Doing this requires me to use a wide variety of tools and programs such as Visual Studio, Site Studio Designer, Jira, Confluence, Sitecore and custom file transfer programs.</p>    
+                    <p>Currently, I am engaged in a contract position which has me working at the American Society of Quality in Milwaukee, WI. I have been working in both .NET and Java environments. My primary responsibilities include front-end development and to technically apply knowledge of HTML, CSS, JavaScript and CMS development to ASQ websites and IT Web Applications. This requires me to create custom HTML web pages and to understand and build web pages that include ASP. I am also creating and online reference guide for Sitecore CMS and training staff on how to use Sitecore to edit, create and update pages. Doing this requires me to use a wide variety of tools and programs such as Visual Studio, Site Studio Designer, Jira, Confluence, Sitecore and custom file transfer programs.</p>    
                 </div>
             <!-- Mondo/YesMail -->
             <div class="contract-work">
@@ -33,13 +33,6 @@
                     <em>June 2015 – Present</em></p>
                     <p>In June, myself and a graphic designer founded Creative Cow Design which, is based out of Oconomowoc, Wisconsin. Currently we are assisting a local Wisconsin food pantry build a website so information can be more accessible for people in need. We are also working on a site for a client that is a sales woman building her a personal sales site for her business. For these projects, we are utilizing Bootstrap 4, SCSS, HTML5, PHP, JavaScript, and jQuery. These projects also have us using Adobe Photoshop to assist with photo editing, graphic design and alteration, and layout.</p>
                 </div>
-            <!-- Web Niobium -->
-            <div class="job">
-                    <p><span class="jobTitle">Web Niobium - Co-Founder/Front-end developer</span>
-                        <a class="web-link" href="http://webniobium.com" target="_blank"><i class="fa fa-desktop"></i> Visit Site</a><br> 
-                    <em>July 2012 – Present</em></p>
-                    <p>In July of 2012 my brother and I decided to start our own web development business. Ben is the back-end developer and I am the front-end developer. During our time working together we have done a variety of projects including websites, ebooks, ecommerce prototyping, and Photoshop mockup's for clients. These projects have us using HTML, CSS3, ASP, jQuery, JavaScript, Ajax, and Abode Photoshop.</p>
-                </div>
             
             <!-- Flexion -->
                 <div class="job">
@@ -55,7 +48,13 @@
                     <p>During a five-month temp position at Promega Corporation in Madison, WI I worked in a .NET environment using SiteCore as the main CMS. As a Front End UX/UI Developer my daily tasks involved updating WordPress themes, developing new pages in SiteCore, creating HTML emails for ad campaigns, creating Photoshop mockups for clients, developing the user interface library and updating the Promega Corporation website to be fully responsive using the PURE CSS responsive framework. Doing these tasks included the hand coding of HTML, CSS, and understanding basic PHP for WordPress updates. I also worked closely with many different departments within Promega Corporation in order to ensure updates and development were completed correctly and in a timely manner.</p>
                 </div>
             </div>
-            <!-- /Freelance & Contract Work -->
+            <!-- Web Niobium -->
+            <div class="job">
+                    <p><span class="jobTitle">Web Niobium - Co-Founder/Front-end developer</span>
+                        <a class="web-link" href="http://webniobium.com" target="_blank"><i class="fa fa-desktop"></i> Visit Site</a><br> 
+                    <em>July 2012 – Present</em></p>
+                    <p>In July of 2012 my brother and I decided to start our own web development business. Ben is the back-end developer and I am the front-end developer. During our time working together we have done a variety of projects including websites, ebooks, ecommerce prototyping, and Photoshop mockup's for clients. These projects have us using HTML, CSS3, ASP, jQuery, JavaScript, Ajax, and Abode Photoshop.</p>
+                </div>
             
             <!-- eMarketing -->
             <p><span class="jobTitle">eMarketing4Business – Lead front-end web designer</span><br>
@@ -69,9 +68,9 @@
                 <h4>GitHub Code</h4>
                 <ul>
                     <li><i class="fa fa-code"></i> | <a href="https://github.com/tpeelstand/portfolio" target="_blank">Portfolio Code</a> - developed this site using HTML, SCSS/CSS, PHP & a little Font Awesome. Code is available for inspection.</li>
-                    <li><i class="fa fa-code"></i> | <a href="https://github.com/tpeelstand/My-Code-Sample" target="_blank">Example Code</a> - A small sample of HTML & LESS/CSS code.</li>
-                    <li><i class="fa fa-code"></i> | <a href="https://github.com/tpeelstand/flexion-mini-project" target="_blank">AngularJS Project</a> -project I worked on in order to enhance my AngualrJS knowledge and understand.</li>
-                    <li><i class="fa fa-code"></i> | <a href="https://github.com/tpeelstand/Calculator" target="_blank">ASP.NET Calculator</a> -currently studying ASP.NET, this project is a small calculator created with ASP.NET Web Forms during one of my lessons.</li>
+                    <li><i class="fa fa-code"></i> | <a href="https://github.com/tpeelstand/My-Code-Sample" target="_blank">Example Code</a> - a small sample of HTML & LESS/CSS code.</li>
+                    <li><i class="fa fa-code"></i> | <a href="https://github.com/tpeelstand/flexion-mini-project" target="_blank">AngularJS Project</a> - project I worked on in order to enhance my AngualrJS knowledge and understand.</li>
+                    <li><i class="fa fa-code"></i> | <a href="https://github.com/tpeelstand/Calculator" target="_blank">ASP.NET Calculator</a> - currently studying ASP.NET, this project is a small calculator created with ASP.NET Web Forms during one of my lessons.</li>
                 </ul>
             </div>
             <div class="indent">
