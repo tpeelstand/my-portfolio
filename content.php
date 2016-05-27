@@ -69,7 +69,7 @@
                 <ul>
                     <li><i class="fa fa-code"></i> | <a href="https://github.com/tpeelstand/portfolio" target="_blank">Portfolio Code</a> - developed this site using HTML, SCSS/CSS, PHP & a little Font Awesome. Code is available for inspection.</li>
                     <li><i class="fa fa-code"></i> | <a href="https://github.com/tpeelstand/My-Code-Sample" target="_blank">Example Code</a> - a small sample of HTML & LESS/CSS code.</li>
-                    <li><i class="fa fa-code"></i> | <a href="https://github.com/tpeelstand/flexion-mini-project" target="_blank">AngularJS Project</a> - project I worked on in order to enhance my AngualrJS knowledge and understand.</li>
+                    <li><i class="fa fa-code"></i> | <a href="https://github.com/tpeelstand/flexion-mini-project" target="_blank">AngularJS Project</a> - project I worked on in order to enhance my AngularJS knowledge and understand.</li>
                     <li><i class="fa fa-code"></i> | <a href="https://github.com/tpeelstand/Calculator" target="_blank">ASP.NET Calculator</a> - currently studying ASP.NET, this project is a small calculator created with ASP.NET Web Forms during one of my lessons.</li>
                 </ul>
             </div>
