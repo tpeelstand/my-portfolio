@@ -9,21 +9,21 @@
             <!-- Randstand/American Society of Quality -->
             <div class="contract-work">
                 <div class="job">
-                    <p><span class="jobTitle">American Society of Quality</span><br> 
+                    <p><span class="jobTitle">American Society of Quality - Front-end developer</span><br> 
                     <em>November 2015 - Present</em></p>
                     <p>Currently, I am engaged in a contract position which has me working at the American Society of Quality in Milwaukee, WI. I have been working in both .NET and Java environments. My primary responsibilities include front-end development and to technically apply knowledge of HTML, CSS, JavaScript and CMS development to ASQ websites and IT Web Applications. This requires me to create custom HTML web pages and to understand and build web pages that include ASP. I am also creating and online reference guide for Sitecore CMS and training staff on how to use Sitecore to edit, create and update pages. Doing this requires me to use a wide variety of tools and programs such as Visual Studio, Site Studio Designer, Jira, Confluence, Sitecore and custom file transfer programs.</p>    
                 </div>
             <!-- Mondo/YesMail -->
             <div class="contract-work">
                 <div class="job">
-                    <p><span class="jobTitle">YesMail</span><a class="web-link" href="http://creative-cow-design.com/marriott-landing-page" target="_blank"><i class="fa fa-desktop"></i> Visit Site</a><br> 
+                    <p><span class="jobTitle">YesMail -  Front-end developer</span><a class="web-link" href="http://creative-cow-design.com/marriott-landing-page" target="_blank"><i class="fa fa-desktop"></i> Visit Site</a><br> 
                     <em>November 2015</em></p>
                     <p>While working with YesMail I was the front-end developer responsible for creating a custom landing page for the Marriott. This landing page was used in a email ad campaign that was sent out to numerous Marriott customers world-wide. To create the landing page I used HTML5, SCSS, CSS, AngularJS, JavaScript, and jQuery. During this project I also utilized many different tools such as Brackets for coding, GitHub, and Browserstack for testing. This was a 100 hour contract position that ran for approximately two and half weeks.</p>    
                 </div>
             <!-- Robert Half/Journey Mental Health -->
             <div class="contract-work">
                 <div class="job">
-                    <p><span class="jobTitle">Journey Mental Health</span><br> 
+                    <p><span class="jobTitle">Journey Mental Health - Front-end developer/Data Entry</span><br> 
                     <em>October 2015 - November 2015</em></p>
                     <p>While working for Journey Mental Health I was tasked with converting hard copy paper forms into e-signature forms for medical professionals. Doing this had me using both HTML text editors as well as CX360 (an integrated behavioral health EHR platform) for formatting the various forms. The projects I worked on also had me creating hand coded reusable templates that could be used in a wide variety of different forms. I also performed data entry and updated accounts as required.</p>    
                 </div>
@@ -69,7 +69,7 @@
                 <ul>
                     <li><i class="fa fa-code"></i> | <a href="https://github.com/tpeelstand/portfolio" target="_blank">Portfolio Code</a> - developed this site using HTML, SCSS/CSS, PHP & a little Font Awesome. Code is available for inspection.</li>
                     <li><i class="fa fa-code"></i> | <a href="https://github.com/tpeelstand/My-Code-Sample" target="_blank">Example Code</a> - a small sample of HTML & LESS/CSS code.</li>
-                    <li><i class="fa fa-code"></i> | <a href="https://github.com/tpeelstand/flexion-mini-project" target="_blank">AngularJS Project</a> - project I worked on in order to enhance my AngularJS knowledge and understand.</li>
+                    <li><i class="fa fa-code"></i> | <a href="https://github.com/tpeelstand/flexion-mini-project" target="_blank">AngularJS Project</a> - project I worked on in order to enhance my AngularJS knowledge and understanding.</li>
                     <li><i class="fa fa-code"></i> | <a href="https://github.com/tpeelstand/Calculator" target="_blank">ASP.NET Calculator</a> - currently studying ASP.NET, this project is a small calculator created with ASP.NET Web Forms during one of my lessons.</li>
                 </ul>
             </div>
