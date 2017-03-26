@@ -5,13 +5,19 @@
             
             
             <!-- Current -->
-            
+            <!-- Manitou Group/Gehl -->
+            <div class="contract-work">
+                <div class="job">
+                    <p><span class="jobTitle">Manitou Group - Front-end developer &amp; UX/UI Designer</span><br> 
+                    <em>July 2016 - Present</em></p>
+                    <p>Currently, I am employed with Manitou Group and work in West Bend, WI. I am the front-end developer and user-experience/user-interface designer. This position has me applying my technical knowledge of HTML, LESS, CSS3, JavaScript, and jQuery along with Sitefinity CMS development to Manitou Group websites and web applications. This requires me to create custom HTML/Less web pages using bootstrap and ASP Masterpages for Sitefinity CMS. I also use a wide variety of tools and programs to accomplish daily tasks, such as, Visual Studio, Adobe Brackets, Koala GUI, and Sitefinity CMS backend.</p>    
+                </div>
             <!-- Randstand/American Society of Quality -->
             <div class="contract-work">
                 <div class="job">
                     <p><span class="jobTitle">American Society of Quality - Front-end developer</span><br> 
-                    <em>November 2015 - Present</em></p>
-                    <p>Currently, I am engaged in a contract position which has me working at the American Society of Quality in Milwaukee, WI. I have been working in both .NET and Java environments. My primary responsibilities include front-end development and to technically apply knowledge of HTML, CSS, JavaScript and CMS development to ASQ websites and IT Web Applications. This requires me to create custom HTML web pages and to understand and build web pages that include ASP. I am also creating and online reference guide for Sitecore CMS and training staff on how to use Sitecore to edit, create and update pages. Doing this requires me to use a wide variety of tools and programs such as Visual Studio, Site Studio Designer, Jira, Confluence, Sitecore and custom file transfer programs.</p>    
+                    <em>November 2015 - July 2016</em></p>
+                    <p>I was engaged in a contract position which had me working at the American Society of Quality in Milwaukee, WI. I worked in both .NET and Java environments. My primary responsibilities included front-end development and to technically apply knowledge of HTML, CSS, JavaScript and CMS development to ASQ websites and IT Web Applications. This requires me to create custom HTML web pages and to understand and build web pages that include ASP. I am also creating and online reference guide for Sitecore CMS and training staff on how to use Sitecore to edit, create and update pages. Doing this requires me to use a wide variety of tools and programs such as Visual Studio, Site Studio Designer, Jira, Confluence, Sitecore and custom file transfer programs.</p>    
                 </div>
             <!-- Mondo/YesMail -->
             <div class="contract-work">
@@ -68,7 +74,7 @@
                 <h4>GitHub Code</h4>
                 <ul>
                     <li><i class="fa fa-code"></i> | <a href="https://github.com/tpeelstand/portfolio" target="_blank">Portfolio Code</a> - developed this site using HTML, SCSS/CSS, PHP & a little Font Awesome. Code is available for inspection.</li>
-                    <li><i class="fa fa-code"></i> | <a href="https://github.com/tpeelstand/My-Code-Sample" target="_blank">Example Code</a> - a small sample of HTML & LESS/CSS code.</li>
+                    <li><i class="fa fa-code"></i> | <a href="https://github.com/tpeelstand/Marriott-Landing-Page" target="_blank">Marriott Landing Page</a> - here is the code for the landing page I completed for the Marriott last year for one of their email campaigns.</li>
                     <li><i class="fa fa-code"></i> | <a href="https://github.com/tpeelstand/flexion-mini-project" target="_blank">AngularJS Project</a> - project I worked on in order to enhance my AngularJS knowledge and understanding.</li>
                     <li><i class="fa fa-code"></i> | <a href="https://github.com/tpeelstand/Calculator" target="_blank">ASP.NET Calculator</a> - currently studying ASP.NET, this project is a small calculator created with ASP.NET Web Forms during one of my lessons.</li>
                 </ul>
@@ -92,6 +98,8 @@
                     <li>GitHub/Subversion</li>
                     <li>Axure - wireframing tools</li>
                     <li>Visual Studio</li>
+                    <li>Cameleon</li>
+                    
                     <li>eBook Creation</li>
                 </ul>
                 
@@ -105,6 +113,7 @@
                 <h4>CMS Expertise</h4>
                 <ul>
                     <li>WordPress - child themeing and customizations</li>
+                    <li>Sitefinity Development - custom CMS development</li>
                     <li>SiteCore - front-end design, development, prototyping & training</li>
                     <li>GetSimpleCMS - Theming and customizations</li>
                 </ul>
@@ -116,7 +125,8 @@
                     <li>Google Ads</li>
                     <li>Facebook Ads</li>
                     <li>Confluence</li>
-                    <li>Jira</li>
+                    <li>Jira</li>                    
+                    <li>Office 360</li>
                     <li>LiquidPlanner</li>
                     <li>Google Analytics</li>
                     <li>BaseCamp</li>
